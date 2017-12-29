@@ -1,1 +1,1 @@
-this is for Core-apps and AIPAC to transfer HTML
+This repo is for Core-apps and AIPAC to edit HTML and CSS
