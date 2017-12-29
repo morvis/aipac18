@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+  html { margin: 0;padding: 0;height: 95%; }
+  body { background: #002d6c;font-family: Arial, Helvetica, sans-serif;font-size: 16px;line-height: 23px;margin: 0;padding: 0;height: 95%; }
+  ul { margin: 15px 25px;padding: 0; }
+  table { margin: 1em 0;font-size: 1em;border-collapse: collapse;border: 1px solid #ccc;max-width: 100%; }
+  td { border: 1px solid #ccc;padding: 1px 2px; }
+  li { padding-bottom: 15px; }
+  a { color: #78A22F;text-decoration: none; }
+  p { padding:0;margin:1em;margin-left: 30px; }
+  h1 { font-size: 110%;line-height:1em; }
+  h2 { font-size: 85%;line-height: 1.2em;padding:0;padding-bottom: .5em;margin:0;margin-left: 15px; }
+  h3 { line-height: 1em;font-size: 100%;padding: 15px;margin:0; }
+
+  #content { min-height: 100%;-moz-border-radius: 15px;border-radius: 15px;border: 1px solid blue;margin: 5px;padding: 10px;background: #f7f7f8; }
+  .bds-header-top { font-family: 'Arial Black', Arial, Helvetica, sans-serif;font-size: 17px;line-height: 24px;font-weight: bold;color: #1b7dbe;text-align: center;margin: 0 auto;padding-bottom: 20px;  }
+  .bds-header { background-color: #1b7dbe;color: #fff;font-family: 'Arial Black', Arial, Helvetica, sans-serif;font-size: 13px;line-height: 20px;text-align: center;margin: 0 auto;padding: 20px;border-radius: 15px; }
+  .bds-title { font-size: 80px;line-height: 87px; }
+  .bds-blue { color: #1b7dbe;font-weight: bold; }
+  .bds-bluebox { background-color: #dde9f5;color: #1b7dbe;font-weight: bold;font-size: 14px;line-height: 21px;padding: 10px; }
+  .bds-mission { background-color: #13355e;color: #fff;text-align: center;margin: 0 auto;padding: 15px;border-radius: 15px;font-size: 14px;line-height: 21px; }
+
+  .button-accordion { margin: 15px 0 0;padding: 14px 40px 14px 10px;color: #FFF;background-color: #a42423;font-size: 16px;font-weight: bold;display: block;border-radius: 5px;cursor: pointer;position: relative;z-index: 2;-webkit-touch-callout: none;-webkit-user-select: none;text-align: left; }
+  .box-accordion { padding: 10px 10px 10px;word-wrap: break-word;border: none;margin: 0;display: none;background: #dde9f5;border-radius: 0 0 15px 15px; }
+  .button-accordion:after { content: '▼';font-size: 1.3em;position: absolute;bottom: 9px;right: 15px;color: #fff; }
+  .button-accordion.open:after { content: '▲'; }
+  .aipac-approach { background-color: #092f47; color: #fff; }
